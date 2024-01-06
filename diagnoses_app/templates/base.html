@@ -1,0 +1,14 @@
+<!DOCTYPE html>
+<html>
+    <title>Heart Diagnosis APP</title>
+    <body>
+        <h2>Welcome To Diagnostic Heaalth</h2>
+        <form method="post">
+            {% csrf_token %}
+            {{ forms.as_p }}
+            <button type="submit" class="btn btn-lg btn-dark mt-3">Submit</button>
+        </form>
+
+        <p>The prediction outcome is {{ prediction }}</p>
+    </body>
+</html>
