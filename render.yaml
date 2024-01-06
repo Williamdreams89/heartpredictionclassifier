@@ -1,7 +1,4 @@
-databases:
-  - name: heatpred
-    databaseName: heatpreddb
-    user: heatpreduser
+
 
 services:
   - type: web
